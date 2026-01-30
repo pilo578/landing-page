@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 150px 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-content {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 15px 0;
+}
+
+.hero-text button {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  background-color: #6B7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E5E7EB;
+}
+
+/* INFO SECTION */
+.info {
+  padding: 60px 150px 100px;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 50px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 150px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #1F2937;
+}
+
+/* QUOTE SECTION */
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 250px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+/* CTA SECTION */
+.cta {
+  padding: 80px 150px;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  color: white;
+  padding: 40px 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-btn {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px;
+}
